@@ -22,7 +22,7 @@
 }
 
 h1 {
-  font-size: 8vw;
+  font-size: 8vw;;
 }
 
 .App-header {
@@ -60,7 +60,6 @@ h1 {
   position: relative;
   color: #ffffff;
   text-shadow: 0 3px #a83d2a, 0 5px #a83d2a, 0 7px #a83d2a;
-  font-size: 8vw;
 }
 .c {
   margin-left: 5%;

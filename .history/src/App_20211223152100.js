@@ -15,7 +15,7 @@ function App() {
           {/* <marquee behavior="scroll" width="100%" direction="right">Merry Christmas</marquee> */}
 
           <div className="bouncing-text">
-            <div className="m">M</div>
+            <div className="M">M</div>
             <div className="e">e</div>
             <div className="r">r</div>
             <div className="r2">r</div>

@@ -15,21 +15,12 @@ function App() {
           {/* <marquee behavior="scroll" width="100%" direction="right">Merry Christmas</marquee> */}
 
           <div className="bouncing-text">
-            <div className="m">M</div>
-            <div className="e">e</div>
-            <div className="r">r</div>
-            <div className="r2">r</div>
-            <div className="y">y</div>
+            <div className="b">M</div>
+            <div className="o">e</div>
+            <div className="u">r</div>
+            <div className="n">r</div>
+            <div className="c">y</div>
             <div className="e"> </div>
-            <div className="c">C</div>
-            <div className="h">h</div>
-            <div className="r3">r</div>
-            <div className="i">i</div>
-            <div className="s">s</div>
-            <div className="t">t</div>
-            <div className="m2">m</div>
-            <div className="a">a</div>
-            <div className="s2">s</div>
             <div className="shadow"></div>
             <div className="shadow-two"></div>
           </div>

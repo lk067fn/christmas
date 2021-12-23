@@ -21,10 +21,6 @@
   font-size: small;
 }
 
-h1 {
-  font-size: 8vw;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -59,8 +55,7 @@ h1 {
 .m, .e, .r, .r2, .y, .c, .h, .r3, .i, .s, .t, .m2, .a, .s2 {
   position: relative;
   color: #ffffff;
-  text-shadow: 0 3px #a83d2a, 0 5px #a83d2a, 0 7px #a83d2a;
-  font-size: 8vw;
+  text-shadow: 0 3px #a83d2a, 0 5px #7a2c1f, 0 7px #7a2c1f;
 }
 .c {
   margin-left: 5%;
