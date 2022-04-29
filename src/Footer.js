@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="footer">
         <p>
           <span className="small-text"> developed by </span>
-          <b>BAKULIAK</b>
+          <b>BAKULIAK with little help from Šariš</b>
         </p>
 
         <p>

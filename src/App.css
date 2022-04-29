@@ -1,8 +1,22 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  
   max-width: 100%;
   overflow-x: hidden;
+  /* toto */
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  height: 90vh;
+}
+
+.pica {
+  text-align: center;
+ 
+  color: white;
+  display: block;
+  width: 100%;
 }
 
 body { 
@@ -22,6 +36,11 @@ body {
 } */
 .play { 
   /* width: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   height: 2rem;
   border-radius: 12px;
   border-style: none;
@@ -31,6 +50,32 @@ body {
   margin-bottom: 20px;
   font-size: 16px;
 }
+
+.play2 {
+  display: flex;
+  align-items: center;
+
+  height: 4rem;
+  width: 100%;
+  border-radius: 12px;
+  border-style: none;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.play2 > span {
+  margin-left: 0.5em;
+  font-size: 32px;
+}
+.play:hover {
+  cursor: pointer;
+}
+
+.play2:hover {
+  cursor: pointer;
+}
+
 .react { 
   color: #61DBFB;
 }

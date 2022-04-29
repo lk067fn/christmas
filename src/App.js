@@ -6,7 +6,8 @@ import React, {useEffect, useState} from 'react';
 
 import Footer from './Footer';
 
-import Song from './assets/jingleBellRock.mp3'
+// import Song from './assets/jingleBellRock.mp3'
+import Song from './assets/sadButTrue.mp3'
 
 import ReactAudioPlayer from 'react-audio-player';
 let audio = new Audio(Song)
@@ -33,10 +34,10 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-        <img src={tree} className="App-logo" alt="logo" />
+        {/* <img src={tree} className="App-logo" alt="logo" /> */}
 
         
-        <button className="play" onClick={() => {start()} }>Tap me 🙂</button>
+        {/* <button className="play" onClick={() => {start()} }>Tap me 🙂</button> */}
 
 
 
@@ -44,8 +45,17 @@ function App() {
 
       <div className="header">
         <h1>
+          It is not Christmas today 🙂
+        </h1>
+        <div> 
+          <button className="play2" onClick={() => {start()} }>Sad but true <span>▶</span></button>
+        </div>
+      </div>
+
+      {/* <div className="header">
+        <h1>
           <div className="bouncing-text">
-            <div className="m">M</div>
+            <div className="m">RISO</div>
             <div className="e">e</div>
             <div className="r">r</div>
             <div className="r2">r</div>
@@ -64,7 +74,7 @@ function App() {
             <div className="shadow-two"></div>
           </div>
         </h1>
-      </div>
+      </div> */}
     
       <Footer/>
     </div>
